@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">MySite</h1>
+      <nav id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Website</h2>
+    <p>Build once, looks perfect everywhere 📱💻</p>
+  </section>
+
+  <main class="container">
+    <div class="content">
+      <h2>Main Content</h2>
+      <p>This is your responsive layout section.</p>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Useful links or info here</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2026 My Website</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav").classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>s
