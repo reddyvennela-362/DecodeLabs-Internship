@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🚀 Interactive Web App</h1>
+
+    <!-- Dark Mode -->
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
+    <!-- Counter -->
+    <h2>Counter: <span id="count">0</span></h2>
+    <div class="btn-group">
+        <button onclick="increase()">➕ Increase</button>
+        <button onclick="decrease()">➖ Decrease</button>
+    </div>
+
+    <!-- Show/Hide Text -->
+    <p id="text">✨ This is an interactive message!</p>
+    <button onclick="toggleText()">👀 Show/Hide Text</button>
+
+    <!-- Input Feature -->
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="showName()">Submit</button>
+    <p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
